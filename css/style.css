@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#content {
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.athlete-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.athlete-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.athlete-details {
+  max-width: 400px;
+}
+
+.athlete-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.athlete-sport {
+  font-size: 18px;
+  color: #666;
+}
+
+.athlete-bio {
+  font-size: 16px;
+  margin-top: 10px;
+}
